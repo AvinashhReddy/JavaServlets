@@ -36,7 +36,7 @@ public class Addstudent extends HttpServlet {
 		// TODO Auto-generated method stub
 		String s;
 		s=request.getParameter("id")+","+request.getParameter("name")+","+request.getParameter("gender")+","+request.getParameter("dob")+","+request.getParameter("city")+","+request.getParameter("state")+","+request.getParameter("mail")+","+request.getParameter("qual")+","+request.getParameter("stream");
-		BufferedWriter b = new BufferedWriter(new FileWriter("C:\\Users\\harip\\eclipse-workspace\\Lbjcasestudy2\\students.csv",true));
+		BufferedWriter b = new BufferedWriter(new FileWriter("C:\\Users\\avinash\\eclipse-workspace\\Lbjcasestudy2\\students.csv",true));
 		b.write(s);
 		b.newLine();
 		b.close();
