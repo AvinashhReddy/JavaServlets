@@ -30,7 +30,7 @@ protected void service(HttpServletRequest req, HttpServletResponse resp) throws 
 	// TODO Auto-generated method stub
 
 	Scanner x;
-	String filePath = "C:\\Users\\harip\\eclipse-workspace\\Lbjcasestudy2\\students.csv";
+	String filePath = "C:\\Users\\avinash\\eclipse-workspace\\Lbjcasestudy2\\students.csv";
 	
 	String studId = "";
 	String studName = "";
